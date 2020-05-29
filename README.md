@@ -39,7 +39,7 @@ APP访客总数（uv）：9988
 
 用户总行为数漏斗分析（转化率：浏览-收藏+加购-支付）
 
-这里是一张图片
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/1.png)
 
 **分析：**
 
@@ -52,7 +52,7 @@ APP访客总数（uv）：9988
 
 分析一个月中用户每天的行为（四项用户指标：浏览量，收藏量，加购量，支付量）
 
-这是一张图片
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/2.png)
 
 **分析：**
 
@@ -63,7 +63,8 @@ APP访客总数（uv）：9988
 
 分析一周内每日的用户行为：取出12.8-14号的数据进行分析
  
-这里是图片
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/3.png)
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/4.png)
 
 **分析：**
 
@@ -75,7 +76,7 @@ APP访客总数（uv）：9988
 
 分析一天内每小时的用户行为：选取11.30日的24个小时进行数据统计
 
-这里是图片
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/5.png)
  
 **分析：**
 
@@ -90,22 +91,32 @@ APP访客总数（uv）：9988
 1. 所有商品的购买次数，并从高到低进行排序
 2. 购买次数或者浏览次数或者收藏次数，或者加入购物车最多的商品
 这几个指标互相比较，对不同的商品进行分析；
-  
+
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/6.png)
+
 没有出现购买用户数量非常集中的商品，购买一次的商品占到89.3%，说明商品售卖主要依靠长尾商品的累积效应，而非爆款商品的带动。
 
 商品浏览次数排名
- 
+
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/7.png)
+
 商品收藏次数排名
- 
+
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/8.png)
+
 商品加购次数排名
- 
+
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/9.png)
+
 商品购买次数排名（前20名）
- 
+
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/10.png)
+
 **分析：**
 
 1. 浏览次数最高的商品32585501，其购买次数没有占据前排，所以意味着浏览之后没有很好的转化为实际销量；
 2. 加购高的商品，支付次数排名也较高，加入购物车和购买行为有一定相关关系；
-3. 收藏次数较高的商品，浏览量也相对较高；
+3. 收藏次数较高的商品，浏览量也相对较高。
 
 **4.RFM模型找出有价值的用户**
 
@@ -115,7 +126,7 @@ RFM模型找出有价值的用户，对用户群进行划分
 - F 购买的频次
 - M 支付金额
 
-取出所有购买的商品；
+取出所有购买的商品
 
 R 购买时间在11.17-23号 为0   11.24-30 为1   12.1-12.5 为2  12.6-11 为3  12.12-17为4
 
@@ -124,11 +135,12 @@ F 用户消费频次为1-791    1-157为0   158-316为1   317-474为2   475-633�
 
 可以使用R和F各自的平均值来衡量高低，区分出客户的类型
 
-- 如果R>平均值且F>平均值  重要价值
-- 如果R>平均值且F<=平均值  重要保持
-- 如果R<=平均值且F>平均值  重要发展
-- 如果R<=平均值且F<=平均值  一般价值
+- 如果R>平均值且F>平均值      重要价值
+- 如果R>平均值且F<=平均值     重要保持
+- 如果R<=平均值且F>平均值     重要发展
+- 如果R<=平均值且F<=平均值    一般价值
 
+![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/11.png)
  
 对于重要价值用户，他们是最优质的用户，需要重点关注并保持， 应该提高满意度，增加留存；
 
