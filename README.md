@@ -39,7 +39,7 @@ APP访客总数（uv）：9988
 
 用户总行为数漏斗分析（转化率：浏览-收藏+加购-支付）
 
-![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/1.png)
+![](https://raw.githubusercontent.com/sunandflowering/user_behavor_taobao_app/master/pic/1.png)
 
 **分析：**
 
@@ -52,7 +52,7 @@ APP访客总数（uv）：9988
 
 分析一个月中用户每天的行为（四项用户指标：浏览量，收藏量，加购量，支付量）
 
-![](https://github.com/sunandflowering/user_behavor_taobao_app/raw/master/pic/2.png)
+![](https://raw.githubusercontent.com/sunandflowering/user_behavor_taobao_app/master/pic/2.png)
 
 **分析：**
 
